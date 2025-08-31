@@ -1,0 +1,422 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px 20px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  background: #fff;
+  color: #2575fc;
+  padding: 10px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  margin: 0 8px;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.cta-buttons .btn:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+/* Section Titles */
+section h2 {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: 2rem;
+  color: #2575fc;
+  letter-spacing: 1px;
+}
+
+/* About */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.about p {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.timeline .card {
+  background: #f1f3f6;
+  padding: 18px 24px;
+  border-radius: 10px;
+  min-width: 180px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 24px 0 0 0;
+}
+
+.skill {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  font-weight: 500;
+  min-width: 110px;
+}
+
+.skill img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Projects */
+.projects {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-filters {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.filter-btn {
+  background: #e3e8f0;
+  color: #2575fc;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin: 0 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.filter-btn:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  width: 300px;
+  padding: 18px;
+  text-align: center;
+  transition: transform 0.15s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.03);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.project-card h3 {
+  margin: 10px 0 6px 0;
+  color: #2575fc;
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 6px 8px 0 8px;
+  color: #2575fc;
+  font-weight: 500;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f1f3f6;
+  padding: 30px 0;
+}
+
+.testimonial-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 22px 30px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  text-align: center;
+  font-style: italic;
+}
+
+.testimonial-card span {
+  display: block;
+  margin-top: 12px;
+  color: #2575fc;
+  font-weight: 500;
+}
+
+/* Contact */
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #fff;
+  padding: 22px 24px;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: none;
+}
+
+.contact button {
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact button:hover {
+  background: #6a11cb;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 10px 0;
+  margin-top: 30px;
+}
+
+footer .quick-links a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+footer .quick-links a:hover {
+  color: #2575fc;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about, .projects, .contact {
+    padding: 10px;
+  }
+  .project-card {
+    width: 95%;
+  }
+  .skills-list {
+    gap: 10px;
+  }
+}
+/* 1. Ảnh đại diện rung nhẹ khi hover */
+.avatar:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0);}
+  20% { transform: translateX(-8px);}
+  40% { transform: translateX(8px);}
+  60% { transform: translateX(-8px);}
+  80% { transform: translateX(8px);}
+  100% { transform: translateX(0);}
+}
+
+/* 2. Fade-in cho section khi cuộn */
+section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 3. Nút CTA nhấp nháy nhẹ */
+.cta-buttons .btn {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37,117,252,0.4);}
+  70% { box-shadow: 0 0 0 12px rgba(37,117,252,0);}
+  100% { box-shadow: 0 0 0 0 rgba(37,117,252,0);}
+}
+
+/* 4. Card dự án nổi lên nhẹ khi hover (đã có, thêm hiệu ứng bóng đổ mạnh hơn) */
+.project-card:hover {
+  box-shadow: 0 8px 32px rgba(37,117,252,0.18);
+  transform: translateY(-10px) scale(1.05);
+}
+#welcome-screen {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.7s;
+}
+
+#welcome-screen {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: linear-gradient(-45deg, #6a11cb, #2575fc, #ff6a00, #43e97b);
+  background-size: 400% 400%;
+  animation: gradientBG 8s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.7s;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+#welcome-text {
+  color: #fff;
+  font-size: 2.1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  max-width: 90vw;
+  letter-spacing: 1px;
+  border-right: 3px solid #fff;
+  white-space: pre-line;
+  padding: 30px 20px;
+  min-height: 80px;
+  animation: blink-caret 0.8s step-end infinite;
+  text-shadow: 0 2px 16px #000, 0 0 20px #43e97b;
+  
+}
