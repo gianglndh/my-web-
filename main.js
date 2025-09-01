@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (i < welcomeMsg.length) {
       welcomeText.textContent += welcomeMsg.charAt(i);
       i++;
-      setTimeout(typeWriter, 40); // tốc độ đánh máy
+      setTimeout(typeWriter, 20); // tốc độ đánh máy
     } else {
       setTimeout(() => {
         welcomeScreen.style.opacity = 0;
